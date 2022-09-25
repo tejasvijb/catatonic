@@ -1,5 +1,6 @@
 body{
     font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 .hero-image {
@@ -24,6 +25,7 @@ body{
 .navbar ul{
     color: rgb(239, 230, 230);
     display: flex;
+    padding-left: 0;
 }
 
 .navbar ul li {
@@ -39,4 +41,90 @@ body{
 .quote {
     position: relative;
     top: 20%;
+}
+
+.container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+
+}
+.cards {
+    /* height: 300px; */
+    position: relative;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    width: fit-content;
+    
+
+}
+
+.content img{
+    height: 300px;
+    /* width: 100%; */
+    border-radius: 8px;
+}
+.text-tile {
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* other styles (left, top, right, and padding) */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    border-radius: 8px;
+  }
+
+  #join {
+    background-color: #0f070b;
+    color: white;
+    /* margin-bottom: 4rem; */
+    padding: 3rem 0;
+}
+
+.wrap {
+    margin: auto;
+    max-width: 65rem;
+    width: 90%;
+}
+
+#join .join {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join p {
+    flex: 0 0 40%;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    height: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width:578px) {
+    .join{
+        flex-direction: column;
+    }
+
+    .mission{
+        padding: 10px;
+    }
+
+    .quote{
+        padding: 10px;
+    }
 }
