@@ -1,0 +1,42 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-image {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./resources/hero.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: azure;
+    font-weight: bolder;
+}
+
+.container {
+    margin-top: 1rem;
+}
+
+.navbar ul{
+    color: rgb(239, 230, 230);
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 0.5rem;
+}
+
+.navbar ul li:hover {
+    border-bottom: 2px solid rgb(235, 225, 228);
+    cursor: pointer;
+    
+}
+
+.quote {
+    position: relative;
+    top: 20%;
+}
